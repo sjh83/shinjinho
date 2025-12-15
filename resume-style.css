@@ -52,6 +52,8 @@
 .history-list {
   padding: 14px;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 /*가상요소 선*/
 .history-list::after {
@@ -72,6 +74,10 @@
   padding-top: 5px;
   font-size: 14px;
   font-weight: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
 }
 
 /*----------------------------------------------------------------------------*/
