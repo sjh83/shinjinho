@@ -113,3 +113,17 @@
   height: 1px;
   background-color: #d9d9d9;
 }
+
+/*---------------------------태블릿---------------------------------------------*/
+@media (min-width: 768px) {
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .history {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
