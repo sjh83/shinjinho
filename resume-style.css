@@ -116,6 +116,9 @@
 
 /*---------------------------태블릿---------------------------------------------*/
 @media (min-width: 768px) {
+  .container {
+    padding: 40px;
+  }
   .main {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -125,5 +128,53 @@
   .history {
     display: grid;
     grid-template-columns: 1fr;
+  }
+}
+
+/*---------------------------PC---------------------------------------------*/
+@media (min-width: 1024px) {
+  .container {
+    padding: 60px 150px;
+  }
+  .main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px 1fr;
+    gap: 40px;
+  }
+
+  .history {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .history-list {
+    padding: 20px;
+  }
+  /*가상요소 선*/
+  .history-list::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 25px;
+    width: 90%;
+    height: 1px;
+    background-color: #d9d9d9;
+    transform: translateX(-50%);
+  }
+
+  .resume {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    gap: 30px;
+  }
+
+  .resume-profile {
+    padding: 20px;
+  }
+
+  .experience {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
   }
 }
