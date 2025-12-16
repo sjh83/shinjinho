@@ -86,6 +86,11 @@
   font-size: 16px;
   font-weight: bold;
 }
+.major {
+  font-size: 14px;
+  font-weight: 500px;
+  padding-top: 10px;
+}
 .resume-profile-subtitle {
   font-size: 14px;
   font-weight: 500px;
@@ -155,6 +160,10 @@
   }
   .resume-profile-title {
     font-size: 18px;
+  }
+  .major {
+    font-size: 16px;
+    padding-top: 15px;
   }
   .resume-profile-subtitle {
     font-size: 16px;
@@ -235,18 +244,25 @@
   .resume-profile-title {
     font-size: 24px;
   }
+  .major {
+    font-size: 20px;
+  }
   .resume-profile-subtitle {
     font-size: 20px;
   }
   .resume-title-text {
+    padding-top: 15px;
     font-size: 20px;
   }
   .experience {
+    display: flex;
+    flex-direction: column;
+  }
+  .resume-profile-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
   }
-
   .footer::after {
     content: "";
     position: absolute;
