@@ -289,6 +289,9 @@
     height: 1px;
     background-color: #d9d9d9;
   }
+  .close-btn {
+    top: -80px;
+  }
 }
 
 /*---------------------------PC---------------------------------------------*/
@@ -421,5 +424,8 @@
     max-width: 1440px;
     display: flex;
     justify-content: center;
+  }
+  .close-btn {
+    top: -100px;
   }
 }
