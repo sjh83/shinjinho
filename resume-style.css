@@ -186,6 +186,20 @@
     padding-top: 10px;
     font-size: 16px;
   }
+  .strength {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    grid-column: 1 / -1;
+  }
+  .strength-heading {
+    padding-top: 15px;
+    font-size: 18px;
+  }
+  .strength-paragraph {
+    font-size: 16px;
+  }
+
   .footer {
     font-size: 16px;
   }
@@ -216,7 +230,7 @@
   .main {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 300px 1fr;
+    grid-template-rows: 300px 1fr 1fr;
     gap: 40px;
   }
 
@@ -276,7 +290,19 @@
   .resume-profile-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 30px;
+  }
+  .strength {
+    display: grid;
+    grid-template-columns: 30% 1fr 1fr;
+    gap: 30px;
+  }
+  .strength-heading {
+    font-size: 24px;
+  }
+  .strength-paragraph {
+    padding-top: 15px;
+    font-size: 20px;
   }
   .footer::after {
     content: "";
