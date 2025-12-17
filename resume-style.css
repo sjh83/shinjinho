@@ -110,13 +110,21 @@
   justify-content: space-between;
 }
 .practice-btn {
-  font-size: 14px;
-  padding: 5px 10px;
+  padding: 0 6px;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #c8fbbc;
   border-radius: 10px;
+  border: none;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
 }
 /* 버튼 터치 */
-
+.practice-btn:active {
+  transform: scale(1.05);
+}
 .major {
   font-size: 14px;
   font-weight: 500px;
@@ -208,7 +216,7 @@
     font-size: 18px;
   }
   .practice-btn {
-    font-size: 16px;
+    font-size: 14px;
   }
   .major {
     font-size: 16px;
@@ -309,7 +317,7 @@
     padding: 0;
   }
   .resume-profile-title {
-    font-size: 24px;
+    font-size: 20px;
   }
   .aboutme::after {
     content: "";
@@ -325,6 +333,19 @@
   }
   .practice-btn {
     font-size: 20px;
+    box-shadow: none;
+    transform: scale(1) translateY(0);
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out,
+      background-color 0.3s ease-in-out;
+  }
+  /* 버튼 터치 */
+  .practice-btn:active {
+    transform: none;
+  }
+  .practice-btn:hover {
+    transform: scale(1.05) translateY(-4px);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+    background-color: #a6f3a2;
   }
   .resume-profile-subtitle {
     font-size: 20px;
