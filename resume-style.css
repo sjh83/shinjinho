@@ -83,7 +83,7 @@
 
 /*----------------------------------------------------------------------------*/
 .resume-profile-title {
-  padding-top: 10px;
+  padding-top: 15px;
   font-size: 16px;
   font-weight: bold;
 }
@@ -98,6 +98,18 @@
   padding-top: 10px;
 }
 .resume-title-text {
+  padding-top: 10px;
+  font-size: 14px;
+  font-weight: 400px;
+}
+
+/*--------------------------------------------------------------------------*/
+.strength-heading {
+  padding-top: 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.strength-paragraph {
   padding-top: 10px;
   font-size: 14px;
   font-weight: 400px;
