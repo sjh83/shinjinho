@@ -1,4 +1,5 @@
 .page {
+  margin: 0auto;
   padding: 20px;
   height: 100vh;
   display: flex;
@@ -86,6 +87,21 @@
   padding-top: 15px;
   font-size: 16px;
   font-weight: bold;
+}
+.aboutme {
+  display: inline-block;
+  padding-bottom: 2px;
+  position: relative;
+}
+/*aboutme 강조 선*/
+.aboutme::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  border-bottom: 1px solid#000;
 }
 .major {
   font-size: 14px;
