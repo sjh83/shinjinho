@@ -172,7 +172,40 @@
   height: 1px;
   background-color: #d9d9d9;
 }
-
+.overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1000;
+  display: none;
+}
+.overlay-content {
+  position: relative;
+  max-width: 80vw;
+  max-height: 80vh;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.overlay:target {
+  display: flex;
+}
+.close-btn {
+  position: absolute;
+  top: -50px;
+  right: 10px;
+  font-size: 35px;
+}
+.overlay-img {
+  width: 80vw;
+  max-width: 100%;
+  height: auto;
+}
 /*---------------------------태블릿---------------------------------------------*/
 @media (min-width: 768px) {
   .page {
