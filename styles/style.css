@@ -37,6 +37,10 @@
   flex-direction: column;
   justify-content: flex-end;
 }
+.header-right-list {
+  display: flex;
+  justify-content: flex-end;
+}
 .social-title {
   font-size: 16px;
   font-weight: bold;
@@ -246,6 +250,9 @@
   }
   .header-left {
     width: 90px;
+  }
+  .github-img {
+    width: 60px;
   }
   .social-title {
     font-size: 18px;
