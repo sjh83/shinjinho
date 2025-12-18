@@ -548,7 +548,7 @@
   }
   .practice-btn:hover {
     transform: scale(1.05) translateY(-4px);
-    box-shadow: 0 3px 3px rgba(236, 176, 176, 0.3);
+    box-shadow: 0 5px 3px rgba(236, 176, 176, 0.3);
     background-color: #b3b3b0;
     font-size: 22px;
   }
@@ -630,5 +630,8 @@
   }
   .practice-items {
     padding-top: 15px;
+  }
+  .padding {
+    padding-top: 35px;
   }
 }
