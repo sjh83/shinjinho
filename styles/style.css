@@ -220,7 +220,12 @@
   max-width: 100%;
   height: auto;
 }
-
+.codepen {
+  font-size: 20px;
+  position: absolute;
+  top: 185px;
+  color: #fff;
+}
 .practice-list {
   padding-top: 15px;
 }
