@@ -118,7 +118,7 @@
   justify-content: space-between;
 }
 .practice-btn {
-  padding: 0 6px;
+  padding: 10px 6px;
   font-size: 13px;
   display: flex;
   justify-content: center;
@@ -219,6 +219,13 @@
   width: 80vw;
   max-width: 100%;
   height: auto;
+}
+
+.practice-list {
+  padding-top: 15px;
+}
+.card-view {
+  padding-top: 10px;
 }
 /*---------------------------태블릿---------------------------------------------*/
 @media (min-width: 768px) {
