@@ -118,8 +118,8 @@
   justify-content: space-between;
 }
 .practice-btn {
-  padding: 10px 6px;
-  font-size: 13px;
+  padding: 10px 0px;
+  font-size: 14px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -224,6 +224,10 @@
 .practice-list {
   padding-top: 15px;
 }
+.practice-view {
+  font-size: 16px;
+  font-weight: bold;
+}
 .card-view {
   padding-top: 10px;
 }
@@ -270,7 +274,7 @@
     font-size: 18px;
   }
   .practice-btn {
-    font-size: 14px;
+    font-size: 16px;
   }
   .major {
     font-size: 16px;
@@ -316,6 +320,10 @@
   }
   .close-btn {
     top: -80px;
+  }
+
+  .practice-view {
+    font-size: 18px;
   }
 }
 
@@ -463,5 +471,9 @@
   }
   .close-btn {
     top: -100px;
+  }
+
+  .practice-view {
+    font-size: 24px;
   }
 }
