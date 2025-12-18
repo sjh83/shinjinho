@@ -81,8 +81,63 @@
   transform: translateX(-50%);
 }
 .history-title {
+  padding-left: 20px;
   font-size: 16px;
   font-weight: bold;
+  position: relative;
+}
+/* 텍스트 이미지 가상 요소 */
+.name::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+
+  background-image: url("https://img.icons8.com/?size=50&id=11779&format=png");
+  background-size: contain;
+}
+.call::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+
+  background-image: url("https://img.icons8.com/?size=50&id=jShwZ2RCyPSO&format=png");
+  background-size: contain;
+}
+.education::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+
+  background-image: url("https://img.icons8.com/?size=80&id=1RNKkGO3VxHR&format=png");
+  background-size: contain;
+}
+.skill::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+
+  background-image: url("https://img.icons8.com/?size=50&id=53421&format=png");
+  background-size: contain;
 }
 .history-title-item {
   padding-top: 5px;
@@ -117,7 +172,6 @@
   border-bottom: 1px solid#000;
 }
 .practice {
-  padding-top: 10px;
   display: flex;
   justify-content: space-between;
 }
@@ -127,6 +181,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #aa7777;
+  font-weight: bold;
   background-color: #f8f8f3;
   border-radius: 10px;
   border: none;
@@ -243,6 +299,11 @@
 .card-view {
   padding-top: 10px;
 }
+
+.textcolor {
+  color: #856767;
+  line-height: 1.5;
+}
 /*---------------------------태블릿---------------------------------------------*/
 @media (min-width: 768px) {
   .page {
@@ -274,6 +335,23 @@
   }
   .history-title {
     font-size: 18px;
+    padding-left: 30px;
+  }
+  .name::before {
+    width: 28px;
+    height: 28px;
+  }
+  .call::before {
+    width: 28px;
+    height: 28px;
+  }
+  .education::before {
+    width: 28px;
+    height: 28px;
+  }
+  .skill::before {
+    width: 28px;
+    height: 28px;
   }
   .history-title-item {
     padding-top: 5px;
@@ -407,6 +485,23 @@
   }
   .history-title {
     font-size: 24px;
+    padding-left: 45px;
+  }
+  .name::before {
+    width: 40px;
+    height: 40px;
+  }
+  .call::before {
+    width: 40px;
+    height: 40px;
+  }
+  .education::before {
+    width: 40px;
+    height: 40px;
+  }
+  .skill::before {
+    width: 40px;
+    height: 40px;
   }
   .history-title-item {
     font-size: 20px;
@@ -423,7 +518,10 @@
     padding: 0;
   }
   .resume-profile-title {
-    font-size: 20px;
+    font-size: 24px;
+  }
+  .aboutme {
+    font-size: 26px;
   }
   .aboutme::after {
     content: "";
