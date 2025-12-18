@@ -210,6 +210,7 @@
   display: flex;
 }
 .close-btn {
+  color: #fff;
   position: absolute;
   top: -50px;
   right: 10px;
@@ -325,10 +326,18 @@
   }
   .close-btn {
     top: -80px;
+    color: #fff;
   }
 
   .practice-view {
     font-size: 18px;
+  }
+
+  .codepen {
+    font-size: 24px;
+    position: absolute;
+    top: 350px;
+    color: #fff;
   }
 }
 
@@ -480,5 +489,12 @@
 
   .practice-view {
     font-size: 24px;
+  }
+
+  .codepen {
+    font-size: 30px;
+    position: absolute;
+    top: 780px;
+    color: #fff;
   }
 }
