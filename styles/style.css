@@ -222,10 +222,12 @@
   height: auto;
 }
 .codepen {
-  font-size: 20px;
-  position: absolute;
-  top: 185px;
   color: #fff;
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 20px;
 }
 .practice-list {
   padding-top: 15px;
@@ -346,10 +348,12 @@
   }
 
   .codepen {
-    font-size: 24px;
-    position: absolute;
-    top: 350px;
     color: #fff;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
   }
 }
 
@@ -504,10 +508,12 @@
   }
 
   .codepen {
-    font-size: 30px;
-    position: absolute;
-    top: 780px;
     color: #fff;
+    position: absolute;
+    top: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 35px;
   }
   .practice-list {
     display: grid;
