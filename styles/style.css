@@ -307,7 +307,19 @@
   .strength-paragraph {
     font-size: 16px;
   }
-
+  /* 버튼 칸*/
+  .practice-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    grid-column: 1 / -1;
+  }
+  .practice-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    grid-column: 1 / -1;
+  }
   .footer {
     font-size: 16px;
   }
@@ -496,5 +508,15 @@
     position: absolute;
     top: 780px;
     color: #fff;
+  }
+  .practice-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column: auto;
+    gap: 0px;
+    grid-template-rows: auto 1fr;
+  }
+  .practice-items {
+    padding-top: 15px;
   }
 }
